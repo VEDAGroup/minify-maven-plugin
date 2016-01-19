@@ -56,14 +56,14 @@
         <url>https://travis-ci.org/samaxes/minify-maven-plugin</url>
     </ciManagement>
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>veda-releases</id>
+            <url>http://repo.veda.de:8081/nexus/content/repositories/releases</url>
         </repository>
+        <snapshotRepository>
+            <id>veda-snapshots</id>
+            <url>http://repo.veda.de:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
     </distributionManagement>
 
     <properties>

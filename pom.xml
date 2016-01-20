@@ -43,18 +43,14 @@
     </prerequisites>
 
     <scm>
-        <connection>scm:git:https://github.com/samaxes/minify-maven-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:samaxes/minify-maven-plugin.git</developerConnection>
-        <url>https://github.com/samaxes/minify-maven-plugin</url>
+        <connection>scm:git:https://github.com/VEDAGroup/minify-maven-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:VEDAGroup/minify-maven-plugin.git</developerConnection>
+        <url>https://github.com/VEDAGroup/minify-maven-plugin</url>
     </scm>
     <issueManagement>
         <system>GitHub</system>
         <url>https://github.com/samaxes/minify-maven-plugin/issues</url>
     </issueManagement>
-    <ciManagement>
-        <system>Travis CI</system>
-        <url>https://travis-ci.org/samaxes/minify-maven-plugin</url>
-    </ciManagement>
     <distributionManagement>
         <repository>
             <id>veda-releases</id>
